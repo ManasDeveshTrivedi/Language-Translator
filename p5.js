@@ -33,3 +33,10 @@ exchangeIcon.addEventListener("click", () => {
     selectTag[1].value = tempLang;
 });
 
+// Clear translation when input empty
+fromText.addEventListener("keyup", () => {
+    if (!fromText.value) {
+        toText.value = "";
+    }
+});
+
