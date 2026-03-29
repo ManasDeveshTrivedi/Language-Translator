@@ -64,3 +64,14 @@ translateBtn.addEventListener("click", async () => {
 
         let data = await res.json();
 
+        if (!data.responseData.translatedText)
+            throw new Error("Translation failed");
+
+        toText.value = data.responseData.translatedText;
+
+        data.matches.forEach(match => {
+            if (match.id === 0) {
+                toText.value = match.translation;
+            }
+        });
+
