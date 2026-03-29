@@ -55,3 +55,12 @@ translateBtn.addEventListener("click", async () => {
     statusText.className = "status loading";
     translateBtn.disabled = true;
 
+    let apiUrl = `https://api.mymemory.translated.net/get?q=${text}&langpair=${translateFrom}|${translateTo}`;
+
+    try {
+        let res = await fetch(apiUrl);
+
+        if (!res.ok) throw new Error("Network error");
+
+        let data = await res.json();
+
