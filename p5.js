@@ -113,4 +113,9 @@ icons.forEach(icon => {
             utterance.lang =
                 target.id === "from"
                     ? selectTag[0].value
-       
+                    : selectTag[1].value;
+
+            speechSynthesis.speak(utterance);
+        }
+    });
+});
