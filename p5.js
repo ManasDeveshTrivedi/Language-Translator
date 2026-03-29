@@ -110,3 +110,7 @@ icons.forEach(icon => {
                 target.id === "from" ? fromText.value : toText.value
             );
 
+            utterance.lang =
+                target.id === "from"
+                    ? selectTag[0].value
+       
