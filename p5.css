@@ -154,3 +154,7 @@ button:disabled{
   color: #555;
 }
 
+.status.loading{
+  color: #5372F0;
+}
+
