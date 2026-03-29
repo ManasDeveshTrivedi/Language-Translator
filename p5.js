@@ -40,3 +40,9 @@ fromText.addEventListener("keyup", () => {
     }
 });
 
+// Translate function
+translateBtn.addEventListener("click", async () => {
+    let text = fromText.value.trim(),
+        translateFrom = selectTag[0].value,
+        translateTo = selectTag[1].value;
+
