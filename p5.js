@@ -18,3 +18,8 @@ selectTag.forEach((tag, id) => {
                         ${countries[country_code]}
                       </option>`;
 
+        tag.insertAdjacentHTML("beforeend", option);
+    }
+});
+
+// Swap languages
