@@ -87,3 +87,13 @@ const countries = {
     "tk-TM": "Turkmen",
     "tl-PH": "Tagalog",
     "tn-BW": "Tswana",
+    "to-TO": "Tongan",
+    "tr-TR": "Turkish",
+    "uk-UA": "Ukrainian",
+    "uz-UZ": "Uzbek",
+    "vi-VN": "Vietnamese",
+    "wo-SN": "Wolof",
+    "xh-ZA": "Xhosa",
+    "yi-YD": "Yiddish",
+    "zu-ZA": "Zulu"
+}
