@@ -23,3 +23,8 @@ selectTag.forEach((tag, id) => {
 });
 
 // Swap languages
+exchangeIcon.addEventListener("click", () => {
+    let tempText = fromText.value;
+    fromText.value = toText.value;
+    toText.value = tempText;
+
