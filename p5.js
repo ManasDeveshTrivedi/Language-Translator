@@ -90,3 +90,8 @@ translateBtn.addEventListener("click", async () => {
     }
 });
 
+// Copy & Speak
+icons.forEach(icon => {
+    icon.addEventListener("click", ({ target }) => {
+        if (!fromText.value && !toText.value) return;
+
