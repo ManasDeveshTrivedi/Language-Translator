@@ -28,3 +28,8 @@ exchangeIcon.addEventListener("click", () => {
     fromText.value = toText.value;
     toText.value = tempText;
 
+    let tempLang = selectTag[0].value;
+    selectTag[0].value = selectTag[1].value;
+    selectTag[1].value = tempLang;
+});
+
