@@ -78,3 +78,6 @@ translateBtn.addEventListener("click", async () => {
         statusText.innerText = "Translation successful !";
         statusText.className = "status";
 
+    } catch (error) {
+        console.error(error);
+
