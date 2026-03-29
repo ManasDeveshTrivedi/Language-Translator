@@ -119,3 +119,8 @@ body{
   padding-right: 10px;
 }
 
+.controls .row.to{
+  border-left: 1px solid #ccc;
+  padding-left: 10px;
+}
+
