@@ -6,3 +6,8 @@ icons = document.querySelectorAll(".row i"),
 translateBtn = document.querySelector("button"),
 statusText = document.querySelector(".status");
 
+// Populate dropdowns
+selectTag.forEach((tag, id) => {
+    for (let country_code in countries) {
+        let selected =
+            id == 0
