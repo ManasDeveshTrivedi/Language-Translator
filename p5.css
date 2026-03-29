@@ -36,3 +36,9 @@ body{
   overflow: hidden;
 }
 
+/* TEXT AREAS */
+.text-input{
+  display: flex;
+  border-bottom: 1px solid #ccc;
+}
+
