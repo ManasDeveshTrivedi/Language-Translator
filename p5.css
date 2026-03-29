@@ -177,5 +177,16 @@ button:disabled{
     border-top: 1px solid #ccc;
   }
 
+  .controls{
+    flex-direction: column;
+    gap: 12px;
+  }
 
+  .controls .row{
+    width: 100%;
+  }
+
+  .exchange{
+    width: 100%;
+  }
 }
