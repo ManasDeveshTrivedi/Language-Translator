@@ -100,3 +100,7 @@ icons.forEach(icon => {
             let textToCopy =
                 target.id === "from" ? fromText.value : toText.value;
 
+            navigator.clipboard.writeText(textToCopy);
+            statusText.innerText = "Copied to clipboard ✅";
+        }
+
