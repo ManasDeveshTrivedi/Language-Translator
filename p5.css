@@ -147,3 +147,10 @@ button:disabled{
   cursor: not-allowed;
 }
 
+/* STATUS */
+.status{
+  margin-top: 10px;
+  font-size: 14px;
+  color: #555;
+}
+
