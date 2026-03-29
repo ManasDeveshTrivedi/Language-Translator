@@ -72,3 +72,10 @@ body{
   width: 45%;
 }
 
+.controls .row select{
+  font-size: 16px;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
