@@ -85,3 +85,8 @@ translateBtn.addEventListener("click", async () => {
         statusText.className = "status error";
         toText.setAttribute("placeholder", "Translation failed");
 
+    } finally {
+        translateBtn.disabled = false;
+    }
+});
+
