@@ -104,3 +104,9 @@ icons.forEach(icon => {
             statusText.innerText = "Copied to clipboard ✅";
         }
 
+        // Speech
+        else {
+            let utterance = new SpeechSynthesisUtterance(
+                target.id === "from" ? fromText.value : toText.value
+            );
+
