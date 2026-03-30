@@ -1,12 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
-
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
-
 body{
   display: flex;
   align-items: center;
@@ -15,7 +13,6 @@ body{
   min-height: 100vh;
   background: linear-gradient(135deg, #5372F0, #6a85f1);
 }
-
 .container{
   max-width: 700px;
   width: 100%;
@@ -25,23 +22,19 @@ body{
   box-shadow: 0 12px 30px rgba(0,0,0,0.15);
   text-align: center;
 }
-
 .container h2{
   margin-bottom: 20px;
 }
-
 .wrapper{
   border-radius: 10px;
   border: 1px solid #ccc;
   overflow: hidden;
 }
-
 /* TEXT AREAS */
 .text-input{
   display: flex;
   border-bottom: 1px solid #ccc;
 }
-
 .text-input textarea{
   height: 200px;
   width: 100%;
@@ -51,11 +44,9 @@ body{
   font-size: 16px;
   padding: 12px;
 }
-
 .text-input .to-text{
   border-left: 1px solid #ccc;
 }
-
 /* CONTROLS FIXED */
 .controls{
   display: flex;
@@ -64,39 +55,33 @@ body{
   padding: 12px 15px;
   gap: 10px;
 }
-
 .controls .row{
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 45%;
 }
-
 .controls .row select{
   font-size: 16px;
   border: none;
   outline: none;
   background: transparent;
 }
-
 /* ICONS FIX */
 .icons{
   display: flex;
   align-items: center;
   gap: 8px;
 }
-
 .icons i{
   cursor: pointer;
   font-size: 14px;
   color: #555;
   transition: 0.2s;
 }
-
 .icons i:hover{
   color: #5372F0;
 }
-
 /* EXCHANGE BUTTON CENTERED */
 .exchange{
   display: flex;
@@ -108,22 +93,18 @@ body{
   color: #555;
   transition: 0.2s;
 }
-
 .exchange:hover{
   color: #5372F0;
 }
-
 /* OPTIONAL DIVIDERS */
 .controls .row.from{
   border-right: 1px solid #ccc;
   padding-right: 10px;
 }
-
 .controls .row.to{
   border-left: 1px solid #ccc;
   padding-left: 10px;
 }
-
 /* BUTTON */
 button{
   width: 100%;
@@ -137,55 +118,44 @@ button{
   cursor: pointer;
   transition: 0.3s;
 }
-
 button:hover{
   background: #405de6;
 }
-
 button:disabled{
   opacity: 0.6;
   cursor: not-allowed;
 }
-
 /* STATUS */
 .status{
   margin-top: 10px;
   font-size: 14px;
   color: #555;
 }
-
 .status.loading{
   color: #5372F0;
 }
-
 .status.error{
   color: #e74c3c;
 }
-
 .status.loading::after{
   content: " ⏳";
 }
-
 /* RESPONSIVE */
 @media(max-width: 600px){
   .text-input{
     flex-direction: column;
   }
-
   .text-input .to-text{
     border-left: none;
     border-top: 1px solid #ccc;
   }
-
   .controls{
     flex-direction: column;
     gap: 12px;
   }
-
   .controls .row{
     width: 100%;
   }
-
   .exchange{
     width: 100%;
   }
